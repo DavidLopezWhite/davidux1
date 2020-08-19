@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-96983322-1"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+
+gtag('config', 'UA-96983322-1');
+</script>
+
+<title>Login Screen Example by David White</title>
+<meta charset="utf-8">
+<meta name="description" content="UX Designer in Berkeley.">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link rel="apple-touch-icon-precomposed" href="media/favicon.png">
+<link rel="icon" href="media/favicon.png">
+<link rel="mask-icon" href="media/favicon.svg" color="rgb(36,38,58)">
+<link rel="shortcut icon" href="media/favicon.png">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<link rel="stylesheet" href="https://use.typekit.net/wry5thn.css">
+<link rel="stylesheet" href="css/main.css">
+
+<!-- <link rel="stylesheet" href="css/login_style.css"> -->
+<script src="js/login_script.js"></script>
+
+</head>
+<body class="page page-home preload" id="home-section">
+
+<header class="header-main dark">
+	<nav id="navbar" class="navbarTop">
+			<div class="nav-toggle"></div>
+		<ul class="inline">
+				<a href="index.html" class="logo" rel="home">
+						<img src="media/favicon.png" alt="an 8 spoked wheel of dharma" style="width:42px;height:42px;border:0;">
+				</a>
+		</ul>
+		<ul class="inline right">
+			<!-- <li><a href="login.html">Log In</a></li> -->
+			<li><a href="index.html#work-section">Work</a></li>
+			<li><a href="index.html#about-section">About</a></li>
+			<li><a href="index.htmlmedia/davidlopezwhite_resume.pdf">Resume</a></li>
+			<li><a href="index.html#contact-info" role="button">Contact</a></li>
+		</ul>
+	</nav>
+</header>
+<!--
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Level Access Login Screen Example by David Lopez-White</title>
+	<link href="css/login_style.css" rel="stylesheet">
+  <script src="js/login_script.js"></script>
+</head>
+-->
+
+  <body class="login">
+    <form id="loginForm" class="login" onSubmit="return validateForm()">
+      <h2 class="login">Login</h2>
+      <div class="label-inputs">
+         <label for="username">Username:
+         </label>
+       <br>
+         <input type="text" id="username" class="input" required title="Please enter a username" aria-required="true"/>
+       <br>
+         <label for="password">Password:
+         </label>
+       <br>
+         <input type="password" id="password" class="input" pattern="^(?=.*?[a-z])(?=.*?[A-Z])(?=.*?[0-9]).*$" required title="Password must contain at least one upper and one lower case letter, and at least one number" aria-required="true"/>
+       <br>
+      </div>
+      <div class="submit-button">
+        <input type="submit" value="Submit" class="login-button" id="button">
+      </div>
+    </form>
+  </body>
+</body>
+</html>
